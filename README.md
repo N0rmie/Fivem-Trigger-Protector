@@ -4,11 +4,9 @@
 
   <p align="center">
     A basic system that is prepared to detect FiveM Trigger executors and protect your servers!
+    If you need help or something you can open a issue.
   </p>
 </p>
-
-If you need help or something you can open a issue.
-
 
 ## Usage
 
