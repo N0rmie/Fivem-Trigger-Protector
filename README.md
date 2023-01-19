@@ -16,10 +16,10 @@
 * Inside the resource folder put the file that can be found in this repo
 * To protect a trigger:
 * 
- Original | Protected
- TriggerServerEvent("test") | secured_TriggerServerEvent("test")
- AddEventHandler("test") | secured_AddEventHandler("test")
- RegisterServerEvent("test") | secured_RegisterServerEvent("test")
+* Original | Protected
+* TriggerServerEvent("test") | secured_TriggerServerEvent("test")
+* AddEventHandler("test") | secured_AddEventHandler("test")
+* RegisterServerEvent("test") | secured_RegisterServerEvent("test")
 
 
 *Example: [Example](https://streamable.com/cb49wm)
