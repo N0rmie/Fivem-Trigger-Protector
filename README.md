@@ -7,7 +7,7 @@
     If you need help or something you can open a issue.
   </p>
 </p>
-
+![5m](https://github.com/N0rmie/Fivem-Trigger-Protector/blob/main/image.png?raw=true)
 ## Usage
 
 * Add this on the top of the fxmanifest.lua/__resource.lua in resource that you want to protect:
