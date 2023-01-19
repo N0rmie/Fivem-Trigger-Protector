@@ -1,2 +1,25 @@
-# Fivem-Trigger-Protector
-!N0rmie FiveM trigger executor detector
+# !N0rmie FiveM trigger executor detector
+<br />
+<p align="center">
+
+  <p align="center">
+    A basic system that is prepared to detect FiveM Trigger executors and protect your servers!
+  </p>
+</p>
+
+If you need help or something you can open a issue.
+
+
+## Usage
+
+* Add this on the top of the fxmanifest.lua/__resource.lua in resource that you want to protect:
+    shared_scripts {'atrigger.lua'}
+* Inside the resource folder put the file that can be found in this repo
+* To protect a trigger:
+    TriggerServerEvent("test")   ->  secured_TriggerServerEvent("test")
+    AddEventHandler("test")      ->  secured_AddEventHandler("test")
+    RegisterServerEvent("test")  ->  secured_RegisterServerEvent("test")
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
