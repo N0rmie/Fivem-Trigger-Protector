@@ -15,9 +15,11 @@
     shared_scripts {'atrigger.lua'}
 * Inside the resource folder put the file that can be found in this repo
 * To protect a trigger:
-Original | TriggerServerEvent("test") | AddEventHandler("test") | RegisterServerEvent("test")
---- | --- | --- | --- 
-Protected | secured_TriggerServerEvent("test") | secured_AddEventHandler("test") | secured_RegisterServerEvent("test")
+| Original                        | Protected                             |
+| ------------------------------- | -------------------------------------:|
+| TriggerServerEvent("test")      | secured_TriggerServerEvent("test")    |
+| AddEventHandler("test")         | secured_AddEventHandler("test")       |
+| RegisterServerEvent("test")     | secured_RegisterServerEvent("test")   |
     
 *Example: [Example](https://streamable.com/cb49wm)
 
