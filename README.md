@@ -1,9 +1,9 @@
 # !N0rmie FiveM trigger executor detector
 <br />
 <p align="center">
-
   <p align="center">
-    A basic system that is prepared to detect FiveM Trigger executors and protect your servers!<br>
+    A basic system that is prepared to detect FiveM Trigger executors and protect your servers!
+    <br />
     If you need help or something you can open a issue.
   </p>
 </p>
