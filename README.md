@@ -15,7 +15,6 @@
     shared_scripts {'atrigger.lua'}
 * Inside the resource folder put the file that can be found in this repo
 * To protect a trigger:
-<br />
 * Original | Protected
 * TriggerServerEvent("test") | secured_TriggerServerEvent("test")
 * AddEventHandler("test") | secured_AddEventHandler("test")
