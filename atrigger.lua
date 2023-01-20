@@ -52,7 +52,7 @@ if IsDuplicityVersion() then
 
     function secured_TriggerEvent(trigger, ...)
         local customTrigger = true
-        local args = ...
+        local args = {...}
         if string.find(trigger, "txsv") and string.find(trigger, "txAdmin") and string.find(trigger, "cfx") and string.find(trigger, "cs-") then
             customTrigger = false
         end
@@ -73,15 +73,15 @@ if IsDuplicityVersion() then
                 __trigger = genTrigger(trigger)
                 CachedTriggersSV[trigger] = __trigger
             end
-            TriggerEvent(__trigger, args)
+            TriggerEvent(__trigger, table.unpack(args))
         else
-            TriggerEvent(trigger, args)
+            TriggerEvent(trigger, table.unpack(args))
         end
     end
 
     function secured_TriggerClientEvent(trigger, ...)
         local customTrigger = true
-        local args = ...
+        local args = {...}
         if string.find(trigger, "txsv") and string.find(trigger, "txAdmin") and string.find(trigger, "cfx") and string.find(trigger, "cs-") then
             customTrigger = false
         end
@@ -104,9 +104,9 @@ if IsDuplicityVersion() then
                 __trigger = genTrigger(trigger)
                 CachedTriggersSV[trigger] = __trigger
             end
-            TriggerClientEvent(__trigger, args)
+            TriggerClientEvent(__trigger, table.unpack(args))
         else
-            TriggerClientEvent(trigger, args)
+            TriggerClientEvent(trigger, table.unpack(args))
         end
     end
 
@@ -282,7 +282,7 @@ else
 
     function secured_TriggerServerEvent(trigger, ...)
         local customTrigger = true
-        local args = ...
+        local args = {...}
         if string.find(trigger, "txsv") and string.find(trigger, "txAdmin") and string.find(trigger, "cfx") and string.find(trigger, "cs-") then
             customTrigger = false
         end
@@ -305,15 +305,15 @@ else
                 __trigger = genTrigger(trigger)
                 CachedTriggersCL[trigger] = __trigger
             end
-            TriggerServerEvent(__trigger, args)
+            TriggerServerEvent(__trigger, table.unpack(args))
         else
-            TriggerServerEvent(trigger, args)
+            TriggerServerEvent(trigger, table.unpack(args))
         end
     end
 
     function secured_TriggerEvent(trigger, ...)
         local customTrigger = true
-        local args = ...
+        local args = {...}
         if string.find(trigger, "txsv") and string.find(trigger, "txAdmin") and string.find(trigger, "cfx") and string.find(trigger, "cs-") then
             customTrigger = false
         end
@@ -334,9 +334,9 @@ else
                 __trigger = genTrigger(trigger)
                 CachedTriggersCL[trigger] = __trigger
             end
-            TriggerEvent(__trigger, args)
+            TriggerEvent(__trigger, table.unpack(args))
         else
-            TriggerEvent(trigger, args)
+            TriggerEvent(trigger, table.unpack(args))
         end
     end
 
