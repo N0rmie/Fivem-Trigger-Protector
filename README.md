@@ -6,7 +6,6 @@
     <br />
     If you need help or something you can open a issue.
     <img src="https://github.com/N0rmie/Fivem-Trigger-Protector/blob/main/image.png?raw=true">
-  </iframe>
   </p>
 </p>
 
