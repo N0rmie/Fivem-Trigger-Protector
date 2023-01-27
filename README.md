@@ -21,7 +21,7 @@
 * RegisterServerEvent("test") | secured_RegisterServerEvent("test")
 
 
-*Example: [Example](https://streamable.com/cb49wm](https://github.com/N0rmie/Fivem-Trigger-Protector/blob/main/cb49wm_1.mp4)
+*Example: [Example](https://github.com/N0rmie/Fivem-Trigger-Protector/blob/main/cb49wm_1.mp4)
 
 ## License
 
