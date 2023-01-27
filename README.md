@@ -6,7 +6,6 @@
     <br />
     If you need help or something you can open a issue.
     <img src="https://github.com/N0rmie/Fivem-Trigger-Protector/blob/main/image.png?raw=true">
-    <iframe src="https://streamable.com/e/cb49wm" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe>
   </p>
 </p>
 
