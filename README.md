@@ -2,7 +2,6 @@
 <br />
 <p align="center">
   <p align="center">
-    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/cb49wm" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
     A basic system that is prepared to detect FiveM Trigger executors and protect your servers!
     <br />
     If you need help or something you can open a issue.
@@ -22,7 +21,7 @@
 * RegisterServerEvent("test") | secured_RegisterServerEvent("test")
 
 
-*Example: [Example](https://streamable.com/cb49wm)
+*Example: [Example](https://streamable.com/cb49wm](https://github.com/N0rmie/Fivem-Trigger-Protector/blob/main/cb49wm_1.mp4)
 
 ## License
 
