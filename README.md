@@ -5,7 +5,7 @@
     A basic system that is prepared to detect FiveM Trigger executors and protect your servers!
     <br />
     If you need help or something you can open a issue.
-    <img src="https://github.com/N0rmie/Fivem-Trigger-Protector/blob/main/image.png?raw=true"><div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/cb49wm?autoplay=1" frameborder="0" width="100%" height="100%" allowfullscreen allow="autoplay" style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+    <img src="https://github.com/N0rmie/Fivem-Trigger-Protector/blob/main/image.png?raw=true">
   </p>
 </p>
 
