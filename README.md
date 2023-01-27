@@ -23,6 +23,8 @@
 
 *Example: [Example](https://github.com/N0rmie/Fivem-Trigger-Protector/blob/main/cb49wm_1.mp4)
 
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://github.com/N0rmie/Fivem-Trigger-Protector/blob/main/cb49wm_1.mp4" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
