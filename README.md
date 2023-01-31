@@ -9,6 +9,8 @@
   </p>
 </p>
 
+## Updated version: [https://github.com/N0rmie/Fivem-Trigger-Protector-V2](https://github.com/N0rmie/Fivem-Trigger-Protector-V2)
+
 ## Usage
 
 * Add this on the top of the fxmanifest.lua/__resource.lua in resource that you want to protect:
